@@ -5,13 +5,13 @@
   margin: 0;
 }
 
-.body::-webkit-scrollbar {
+body::-webkit-scrollbar {
   display: none;
 }
 
-.body {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
 }
 
 /**************************** MENU ****************************/
@@ -63,7 +63,7 @@
 
 a.active {
   font-weight: 600;
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 .sidenav a:hover {
@@ -89,8 +89,26 @@ a.active {
   }
 }
 
+.logo {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  font-size: 30px;
+  right: 1rem;
+  top: 1rem;
+  z-index: 1;
+}
+/****************************   MAIN   ****************************/
+main{
+  min-height: 100vh;
+}
+
 /**************************** GENERAL ****************************/
 /**************************** GENERAL ****************************/
-/**************************** GENERAL ****************************/
-/**************************** GENERAL ****************************/
-/**************************** GENERAL ****************************/
+/**************************** FOOTER ****************************/
+footer {
+  color: white;
+  background-color: #212529;
+  padding: 2rem;
+  scroll-snap-align: end;
+}

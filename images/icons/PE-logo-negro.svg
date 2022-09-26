@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Capa_1"
+   data-name="Capa 1"
+   viewBox="0 0 1080 1080"
+   version="1.1"
+   sodipodi:docname="PE-logo-negro.svg"
+   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview9"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.81203704"
+     inkscape:cx="539.38426"
+     inkscape:cy="645.9065"
+     inkscape:window-width="1390"
+     inkscape:window-height="1027"
+     inkscape:window-x="56"
+     inkscape:window-y="52"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Capa_1" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#fff;}</style>
+  </defs>
+  <path
+     class="cls-1"
+     d="M540,11.22C248,11.22,11.22,248,11.22,540S248,1068.78,540,1068.78,1068.78,832,1068.78,540,832,11.22,540,11.22ZM324.7,575.69h-166V686.44h-66V399.18h232ZM596,686.44H364V399.18H596Zm270.49.38H634.27V399.18h66V620.87H866.44Zm38.89,0V399.18h66V686.82Z"
+     id="path6"
+     style="fill:#000000" />
+</svg>
