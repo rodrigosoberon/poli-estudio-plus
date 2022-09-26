@@ -1,0 +1,96 @@
+/**************************** GENERAL ****************************/
+* {
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.body::-webkit-scrollbar {
+  display: none;
+}
+
+.body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/**************************** MENU ****************************/
+#icono-menu {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  z-index: 1;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(200, 200, 200, 0.3);
+  transition: 0.3s;
+}
+
+#icono-menu img{
+  height: 2rem;
+}
+
+#icono-menu:hover {
+  background-color: rgba(200, 200, 200, 0.6);
+  transition: 0.3s;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: #212529;
+  overflow-x: hidden;
+  white-space: nowrap;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+a.active {
+  font-weight: 600;
+  font-size: 2.5em;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 150px;
+  }
+  .sidenav a {
+    font-size: 118px;
+  }
+}
+
+/**************************** GENERAL ****************************/
+/**************************** GENERAL ****************************/
+/**************************** GENERAL ****************************/
+/**************************** GENERAL ****************************/
+/**************************** GENERAL ****************************/
