@@ -1,0 +1,32 @@
+{
+  "home": {
+    "es": "Inicio",
+    "en": "Home",
+    "br": "Início"
+  },
+  "renders": {
+    "es": "Renders",
+    "en": "Renders",
+    "br": "Renders"
+  },
+  "contact": {
+    "es": "Contacto",
+    "en": "Contact",
+    "br": "Contato"
+  },
+  "360tour": {
+    "es": "Recorridos 360",
+    "en": "360 Tours",
+    "br": "Tour 360"
+  },
+  "selectLanguage": {
+    "es": "Seleccione un idioma",
+    "en": "Select a language",
+    "br": "Selecione um idioma"
+  },
+  "input": {
+    "en": "🇬🇧 English",
+    "es": "🇪🇸 Español",
+    "br": "🇧🇷 Português"
+  }
+}
