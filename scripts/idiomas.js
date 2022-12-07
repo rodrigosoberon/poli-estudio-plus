@@ -1,19 +1,12 @@
-//TODO agregar local storage para guardar el idioma elegido
-
-
 let traducciones;
 fetch("./scripts/traducciones.json")
   .then((response) => response.json())
   .then((data) => {
     traducciones = data;
-  });
+  })
+  .then(()=>traducir())
 
-let idiomaElegido = "es";
-
-let botonIdioma = document.getElementById("bandera");
-botonIdioma.addEventListener("click", seleccionarIdioma);
-
-function cambiarIdioma() {
+function traducir() {
   for (let i = 0; i < document.getElementsByClassName("traducir").length; i++) {
     document.getElementsByClassName("traducir")[i].innerText =
       traducciones[document.getElementsByClassName("traducir")[i].id][
@@ -22,17 +15,24 @@ function cambiarIdioma() {
   }
 }
 
+let idiomaElegido = localStorage.getItem("language") || "es"
+let botonIdioma = document.getElementById("bandera");
+botonIdioma.src = "./images/icons/" + idiomaElegido + ".png";
+botonIdioma.addEventListener("click", seleccionarIdioma);
+
+
 async function seleccionarIdioma() {
   const { value: idioma } = await Swal.fire({
-    //FIXME Cambiar el color del boton del sweetalert
+    confirmButtonColor: '#212529',
     title: traducciones["selectLanguage"][idiomaElegido],
     input: "select",
     inputOptions: traducciones.input,
   });
   if (idioma) {
     idiomaElegido = idioma;
+    localStorage.setItem("language", idiomaElegido)
     document.getElementById("bandera").src =
       "./images/icons/" + idiomaElegido + ".png";
-    cambiarIdioma();
+    traducir();
   }
 }

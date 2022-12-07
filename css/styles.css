@@ -12,6 +12,7 @@ body::-webkit-scrollbar {
 body {
   -ms-overflow-style: none;
   scrollbar-width: none; 
+  padding-right: 0 !important;
 }
 
 /**************************** MENU ****************************/
