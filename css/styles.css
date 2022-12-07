@@ -81,14 +81,14 @@ a.active {
 
 
 
-@media screen and (max-height: 450px) {
+/* @media only screen and (max-height: 450px) {
   .sidenav {
     padding-top: 150px;
   }
   .sidenav a {
     font-size: 118px;
   }
-}
+} */
 
 .logo {
   width: 50px;
@@ -122,6 +122,12 @@ main{
   margin: 1rem;
 }
 
+@media only screen and (max-width: 470px) {
+  .titulo{
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+  }
+}
 /**************************** GENERAL ****************************/
 /**************************** GENERAL ****************************/
 /**************************** FOOTER ****************************/
