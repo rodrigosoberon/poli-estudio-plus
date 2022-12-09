@@ -28,5 +28,10 @@
     "en": "🇬🇧 English",
     "es": "🇪🇸 Español",
     "br": "🇧🇷 Português"
+  },
+  "fraseIndex":{
+    "en": "Creating scenarios where the imaginary becomes reality",
+    "es": "Creando escenarios donde el imaginario se hace realidad",
+    "br":"Criando cenários onde o imaginário se torna realidade"
   }
 }
