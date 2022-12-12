@@ -358,6 +358,34 @@ div.desc {
 footer {
   color: white;
   background-color: #212529;
-  padding: 2rem;
+  padding: 1.5rem;
   scroll-snap-align: end;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-rrss ul{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 2em;
+  padding: 0;
+  margin-right: 4em;
+}
+
+.footer-rrss ul li a img{
+  height: 2em;
+}
+
+@media only screen and (max-width: 800px) {
+  footer {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 1em;
+  }
+  .footer-rrss ul{
+    margin-right: 0;
+  }
 }
