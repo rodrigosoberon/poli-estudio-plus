@@ -125,7 +125,6 @@ section {
 }
 
 /* *SLIDESHOW */
-
 section div img {
   object-fit: cover;
   max-height: 100vh;
@@ -153,10 +152,9 @@ section div img {
   }
 }
 
-/*      *GRID       */
-
+/*      *GRID DE RENDERS      */
 .grid{
-  padding-bottom: 0.5em;
+  padding-bottom: 8px;
 }
 
 .row .column img{
@@ -170,7 +168,6 @@ section div img {
   flex-wrap: wrap;
   padding: 0 4px;
 }
-/* Create four equal columns that sits next to each other */
 .column {
   -ms-flex: 25%; /* IE10 */
   flex: 25%;
@@ -182,7 +179,6 @@ section div img {
   vertical-align: middle;
   width: 100%;
 }
-/* Responsive layout - makes a two column-layout instead of four columns */
 @media only screen and (max-width: 800px) {
   .column {
     -ms-flex: 50%;
@@ -190,7 +186,6 @@ section div img {
     max-width: 50%;
   }
 }
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media only screen and (max-width: 600px) {
   .column {
     -ms-flex: 100%;
@@ -200,39 +195,31 @@ section div img {
 }
 
 /*  *MODAL */
-/* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
 }
-/* Modal Content (image) */
+
 .modal-content {
   margin: auto;
   display: block;
-  /* width: 80%; */
-  /* max-width: 700px; */
   max-width: 80vw;
   max-height: 80vh;
 }
-/* Caption of Modal Image */
+
 #caption {
   margin: auto;
   display: block;
-  /* width: 80%; */
-  /* max-width: 700px; */
   text-align: center;
   color: #fff;
   padding: 10px 0;
-  /* height: 150px; */
 }
 .modal-content, #caption {  
   -webkit-animation-name: zoom;
@@ -249,7 +236,6 @@ section div img {
   to {transform:scale(1)}
 }
 
-/* The Close Button */
 .closeModal {
   position: absolute;
   top: 0.5em;
@@ -264,6 +250,45 @@ section div img {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
+}
+
+/* *RECORRIDOS */
+.galeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+div.tour {
+  margin: 1em;
+  border: 1px solid #ccc;
+  float: left;
+  width: auto;
+}
+
+div.tour:hover {
+  border: 1px solid #777;
+}
+
+div.tour img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 925px) {
+  .galeria{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 615px) {
+  .galeria{
+    grid-template-columns: 1fr ;
+  }
 }
 
 /* *OTRAS SECCIONES */
@@ -295,7 +320,7 @@ section div img {
 
 .fondo-fijo-1 {
   height: 100vh;
-  background-image: url("../images/renders/B-02.webp");
+  background-image: url("../images/renders/B-01.webp");
   /* background-attachment: fixed; */
   background-position: center;
   background-repeat: no-repeat;
@@ -304,7 +329,7 @@ section div img {
 
 .fondo-fijo-2 {
   height: 100vh;
-  background-image: url("../images/renders/C-01.webp");
+  background-image: url("../images/renders/D-02.webp");
   /* background-attachment: fixed; */
   background-position: center;
   background-repeat: no-repeat;
@@ -326,9 +351,6 @@ section div img {
     padding: 0;
   }
 }
-
-
-
 
 /**************************** GENERAL ****************************/
 /**************************** GENERAL ****************************/

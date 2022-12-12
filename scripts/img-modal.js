@@ -4,7 +4,7 @@ let captionText = document.getElementById("caption");
 function expand(img){
   modal.style.display = "block";
   modalImg.src = img.src;
-  captionText.innerHTML = img.alt;
+  // captionText.innerHTML = img.alt;
 }
 
 let botonCerrar = document.getElementsByClassName("closeModal")[0];
