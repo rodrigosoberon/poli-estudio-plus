@@ -48,5 +48,20 @@
     "en": "About us",
     "es": "Quiénes somos",
     "br": "Quem somos"
+  },
+  "p1":{
+    "en":"POLI•Estudio was born in 2020 to create imaginary scenarios in projects of different scales, with the vision of continuing to grow and betting on innovative ideas. Based in Buenos Aires, Argentina, it is made up of architects who are passionate about design, photography and new technologies.",
+    "es":"POLI•Estudio nació en 2020 para crear escenarios imaginarios en proyectos de distintas escalas, con la visión de seguir creciendo y apostando a ideas innovadoras. Con sede en Buenos Aires-Argentina, está conformado por arquitectos apasionados por el diseño, la fotografía y las nuevas tecnologías.",
+    "br":"POLI•Estudio nasceu em 2020 para criar cenários imaginários em projetos de diferentes escalas, com a visão de continuar a crescer e apostar em ideias inovadoras. Com sede em Buenos Aires-Argentina, é formada por arquitetos apaixonados por design, fotografia e novas tecnologias."
+  },
+  "p2":{
+    "en":"Each project is unique and pursues key objectives: understanding and transmitting its essence, highlighting its most attractive aspects and creating photorealistic immersive environments. For this, different disciplines such as art, photography, interior design, urban planning, virtual reality and architecture are combined.",
+      "es":"Cada proyecto es único y persigue objetivos clave: entender y transmitir su esencia, resaltar sus aspectos más atractivos y crear ambientes inmersivos fotorealistas. Para eso, se combinan distintas disciplinas como el arte, la fotografía, el diseño de interiores, el urbanismo, la realidad virtual y la arquitectura.",
+  "br":"Cada projeto é único e persegue objetivos fundamentais: compreender e transmitir a sua essência, evidenciar os seus aspetos mais atrativos e criar ambientes imersivos fotorrealistas. Para isso, combinam-se diferentes disciplinas como arte, fotografia, design de interiores, planejamento urbano, realidade virtual e arquitetura."
+  },
+  "p3":{
+    "en":"We believe in the importance of finding new ways to improve, transmit and enjoy architecture. Technology, and in particular the field of Archviz, help us blur the boundaries between the physical world and the digital world.",
+    "es":"Creemos en la importancia de encontrar nuevas formas de mejorar, transmitir y disfrutar de la arquitectura. La tecnología, y en particular el campo del Archviz, nos ayudan a desdibujar los límites entre el mundo físico y el mundo digital.",
+    "br":"Acreditamos na importância de encontrar novas formas de melhorar, transmitir e desfrutar da arquitetura. A tecnologia, e em particular o campo do Archviz, ajuda-nos a esbater as fronteiras entre o mundo físico e o mundo digital."
   }
 }

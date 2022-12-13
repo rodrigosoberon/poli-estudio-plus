@@ -98,6 +98,11 @@ a.active {
   bottom: 1rem;
   z-index: 1;
   cursor: pointer;
+  transition:  scale .3s ease-in-out;
+}
+
+#bandera:hover{
+  scale: 1.2;
 }
 /****************************   MAIN   ****************************/
 main {
@@ -312,18 +317,22 @@ div.desc {
   margin: 5em 0;
 }
 
-.contacto-info-telefono,
-.contacto-info-mail {
+.contacto-info-boton {
   display: flex;
   gap: 1em;
   text-decoration: none;
   color: inherit;
+  transition:  scale .3s ease-in-out;
 }
 
-.contacto-info-telefono img,
-.contacto-info-mail img {
+.contacto-info-boton:hover{
+  scale: 1.2;
+}
+
+.contacto-info-boton img {
   height: 3em;
 }
+
 
 #quienesSomos{
   text-align: center;
@@ -485,6 +494,11 @@ footer {
 
 .footer-rrss ul li a img {
   height: 2em;
+  transition:  scale .3s ease-in-out;
+}
+
+.footer-rrss ul li a img:hover{
+  scale: 1.2;
 }
 
 @media only screen and (max-width: 800px) {
