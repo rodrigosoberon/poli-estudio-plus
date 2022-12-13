@@ -269,7 +269,7 @@ section div img {
 /* *RECORRIDOS */
 .galeria {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 div.tour {
