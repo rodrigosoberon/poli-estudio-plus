@@ -11,7 +11,7 @@ body::-webkit-scrollbar {
 
 body {
   -ms-overflow-style: none;
-  scrollbar-width: none; 
+  scrollbar-width: none;
   padding-right: 0 !important;
 }
 
@@ -30,7 +30,7 @@ body {
   transition: 0.3s;
 }
 
-#icono-menu img{
+#icono-menu img {
   height: 2rem;
 }
 
@@ -100,11 +100,11 @@ a.active {
   cursor: pointer;
 }
 /****************************   MAIN   ****************************/
-main{
+main {
   min-height: 100vh;
 }
 
-.titulo{
+.titulo {
   font-size: 3rem;
   font-weight: 300;
   text-align: center;
@@ -112,7 +112,7 @@ main{
 }
 
 @media only screen and (max-width: 470px) {
-  .titulo{
+  .titulo {
     font-size: 1.5rem;
     padding-top: 0.5rem;
   }
@@ -153,11 +153,11 @@ section div img {
 }
 
 /*      *GRID DE RENDERS      */
-.grid{
+.grid {
   padding-bottom: 8px;
 }
 
-.row .column img{
+.row .column img {
   width: 100%;
 }
 
@@ -204,7 +204,7 @@ section div img {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .modal-content {
@@ -221,19 +221,28 @@ section div img {
   color: #fff;
   padding: 10px 0;
 }
-.modal-content, #caption {  
+.modal-content,
+#caption {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
 @-webkit-keyframes zoom {
-  from {-webkit-transform:scale(0)} 
-  to {-webkit-transform:scale(1)}
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
 }
 @keyframes zoom {
-  from {transform:scale(0)} 
-  to {transform:scale(1)}
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 
 .closeModal {
@@ -280,14 +289,113 @@ div.desc {
 }
 
 @media only screen and (max-width: 925px) {
-  .galeria{
+  .galeria {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media only screen and (max-width: 615px) {
-  .galeria{
-    grid-template-columns: 1fr ;
+  .galeria {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* *CONTACTO */
+.contacto {
+  margin: 0 5em;
+}
+
+.contacto-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5em 0;
+}
+
+.contacto-info-telefono,
+.contacto-info-mail {
+  display: flex;
+  gap: 1em;
+  text-decoration: none;
+  color: inherit;
+}
+
+.contacto-info-telefono img,
+.contacto-info-mail img {
+  height: 3em;
+}
+
+#quienesSomos{
+  text-align: center;
+  font-size: 2em;  
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2em;
+}
+
+.text-parrafo {
+  display: flex;
+  align-items: center;
+  padding: 0em 15vw;
+}
+
+#invertir {
+  flex-direction: row-reverse;
+}
+
+#invertir img {
+  margin-left: 0;
+}
+
+.text-parrafo img {
+  height: 10em;
+}
+
+.text-parrafo p {
+  margin: 2em 0em 2em 2em ;
+  font-size: 1.3em;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-font-smoothing: antialiased !important;
+  text-rendering: optimizelegibility !important;
+  letter-spacing: 0.06em;
+  line-height: 1.5em;
+}
+
+#invertir p{
+  margin: 3em 2em 2em 0em;
+}
+
+@media only screen and (max-width: 1050px){
+  .text-parrafo {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .contacto-info {
+    flex-direction: column;
+    gap: 2em;
+    align-items: baseline;
+  }
+
+  .text-parrafo img {
+    height: 5em;
+  }
+  .text-parrafo p {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .text-parrafo, #invertir {
+    flex-direction: column;
+  }
+  .text-parrafo p, #invertir p {
+    margin: 2em 0em;
   }
 }
 
@@ -337,7 +445,7 @@ div.desc {
 }
 
 @media only screen and (max-width: 800px) {
-  .imagen-texto{
+  .imagen-texto {
     flex-direction: column;
   }
 
@@ -366,7 +474,7 @@ footer {
   align-items: center;
 }
 
-.footer-rrss ul{
+.footer-rrss ul {
   display: flex;
   flex-direction: row;
   list-style-type: none;
@@ -375,7 +483,7 @@ footer {
   margin-right: 4em;
 }
 
-.footer-rrss ul li a img{
+.footer-rrss ul li a img {
   height: 2em;
 }
 
@@ -385,7 +493,22 @@ footer {
     align-items: center;
     gap: 1em;
   }
-  .footer-rrss ul{
+
+  .footer-text{
+    margin: 0 5em;
+  }
+
+  .footer-rrss ul {
     margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .footer-text{
+    margin: 0 3em;
+  }
+  .footer-rrss ul{
+    gap: 0.7em;
+    margin: 0 1em;
   }
 }

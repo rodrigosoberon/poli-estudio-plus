@@ -33,5 +33,20 @@
     "en": "Creating scenarios where the imaginary becomes reality",
     "es": "Creando escenarios donde el imaginario se hace realidad",
     "br":"Criando cenários onde o imaginário se torna realidade"
+  },
+  "telefono":{
+    "en" : "Phone",
+    "es": "Teléfono",
+    "br": "Telefone"
+  },
+  "email":{
+    "en": "Email",
+    "es": "Correo electrónico",
+    "br": "Correio eletrônico"
+  },
+  "quienesSomos":{
+    "en": "About us",
+    "es": "Quiénes somos",
+    "br": "Quem somos"
   }
 }
