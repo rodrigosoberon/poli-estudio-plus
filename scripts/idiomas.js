@@ -15,9 +15,9 @@ function traducir() {
   }
 }
 
-let idiomaElegido = localStorage.getItem("language") || "es"
-let botonIdioma = document.getElementById("bandera");
-botonIdioma.src = "./images/icons/" + idiomaElegido + ".png";
+let idiomaElegido = localStorage.getItem("language") || "esp"
+let botonIdioma = document.getElementById("idioma");
+botonIdioma.innerText = idiomaElegido.toUpperCase()
 botonIdioma.addEventListener("click", seleccionarIdioma);
 
 
@@ -31,8 +31,7 @@ async function seleccionarIdioma() {
   if (idioma) {
     idiomaElegido = idioma;
     localStorage.setItem("language", idiomaElegido)
-    document.getElementById("bandera").src =
-      "./images/icons/" + idiomaElegido + ".png";
+    document.getElementById("idioma").innerText = idiomaElegido.toUpperCase();
     traducir();
   }
 }

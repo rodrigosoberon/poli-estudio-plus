@@ -1,67 +1,67 @@
 {
   "home": {
-    "es": "Inicio",
-    "en": "Home",
-    "br": "Início"
+    "esp": "Inicio",
+    "eng": "Home",
+    "por": "Início"
   },
   "renders": {
-    "es": "Renders",
-    "en": "Renders",
-    "br": "Renders"
+    "esp": "Renders",
+    "eng": "Renders",
+    "por": "Renders"
   },
   "contact": {
-    "es": "Contacto",
-    "en": "Contact",
-    "br": "Contato"
+    "esp": "Contacto",
+    "eng": "Contact",
+    "por": "Contato"
   },
   "360tour": {
-    "es": "Recorridos 360",
-    "en": "360 Tours",
-    "br": "Tour 360"
+    "esp": "Recorridos 360",
+    "eng": "360 Tours",
+    "por": "Tour 360"
   },
   "selectLanguage": {
-    "es": "Seleccione un idioma",
-    "en": "Select a language",
-    "br": "Selecione um idioma"
+    "esp": "Seleccione un idioma",
+    "eng": "Select a language",
+    "por": "Selecione um idioma"
   },
   "input": {
-    "en": "🇬🇧 English",
-    "es": "🇪🇸 Español",
-    "br": "🇧🇷 Português"
+    "eng": "🇬🇧 English",
+    "esp": "🇪🇸 Español",
+    "por": "🇧🇷 Português"
   },
   "fraseIndex":{
-    "en": "Creating scenarios where the imaginary becomes reality",
-    "es": "Creando escenarios donde el imaginario se hace realidad",
-    "br":"Criando cenários onde o imaginário se torna realidade"
+    "eng": "Creating scenarios where the imaginary becomes reality",
+    "esp": "Creando escenarios donde el imaginario se hace realidad",
+    "por":"Criando cenários onde o imaginário se torna realidade"
   },
   "telefono":{
-    "en" : "Phone",
-    "es": "Teléfono",
-    "br": "Telefone"
+    "eng" : "Phone",
+    "esp": "Teléfono",
+    "por": "Telefone"
   },
   "email":{
-    "en": "Email",
-    "es": "Correo electrónico",
-    "br": "Correio eletrônico"
+    "eng": "Email",
+    "esp": "Correo electrónico",
+    "por": "Correio eletrônico"
   },
   "quienesSomos":{
-    "en": "About us",
-    "es": "Quiénes somos",
-    "br": "Quem somos"
+    "eng": "About us",
+    "esp": "Quiénes somos",
+    "por": "Quem somos"
   },
   "p1":{
-    "en":"POLI•Estudio was born in 2020 to create imaginary scenarios in projects of different scales, with the vision of continuing to grow and betting on innovative ideas. Based in Buenos Aires, Argentina, it is made up of architects who are passionate about design, photography and new technologies.",
-    "es":"POLI•Estudio nació en 2020 para crear escenarios imaginarios en proyectos de distintas escalas, con la visión de seguir creciendo y apostando a ideas innovadoras. Con sede en Buenos Aires-Argentina, está conformado por arquitectos apasionados por el diseño, la fotografía y las nuevas tecnologías.",
-    "br":"POLI•Estudio nasceu em 2020 para criar cenários imaginários em projetos de diferentes escalas, com a visão de continuar a crescer e apostar em ideias inovadoras. Com sede em Buenos Aires-Argentina, é formada por arquitetos apaixonados por design, fotografia e novas tecnologias."
+    "eng":"POLI•Estudio was born in 2020 to create imaginary scenarios in projects of different scales, with the vision of continuing to grow and betting on innovative ideas. Based in Buenos Aires, Argentina, it is made up of architects who are passionate about design, photography and new technologies.",
+    "esp":"POLI•Estudio nació en 2020 para crear escenarios imaginarios en proyectos de distintas escalas, con la visión de seguir creciendo y apostando a ideas innovadoras. Con sede en Buenos Aires-Argentina, está conformado por arquitectos apasionados por el diseño, la fotografía y las nuevas tecnologías.",
+    "por":"POLI•Estudio nasceu em 2020 para criar cenários imaginários em projetos de diferentes escalas, com a visão de continuar a crescer e apostar em ideias inovadoras. Com sede em Buenos Aires-Argentina, é formada por arquitetos apaixonados por design, fotografia e novas tecnologias."
   },
   "p2":{
-    "en":"Each project is unique and pursues key objectives: understanding and transmitting its essence, highlighting its most attractive aspects and creating photorealistic immersive environments. For this, different disciplines such as art, photography, interior design, urban planning, virtual reality and architecture are combined.",
-      "es":"Cada proyecto es único y persigue objetivos clave: entender y transmitir su esencia, resaltar sus aspectos más atractivos y crear ambientes inmersivos fotorealistas. Para eso, se combinan distintas disciplinas como el arte, la fotografía, el diseño de interiores, el urbanismo, la realidad virtual y la arquitectura.",
-  "br":"Cada projeto é único e persegue objetivos fundamentais: compreender e transmitir a sua essência, evidenciar os seus aspetos mais atrativos e criar ambientes imersivos fotorrealistas. Para isso, combinam-se diferentes disciplinas como arte, fotografia, design de interiores, planejamento urbano, realidade virtual e arquitetura."
+    "eng":"Each project is unique and pursues key objectives: understanding and transmitting its essence, highlighting its most attractive aspects and creating photorealistic immersive environments. For this, different disciplines such as art, photography, interior design, urban planning, virtual reality and architecture are combined.",
+      "esp":"Cada proyecto es único y persigue objetivos clave: entender y transmitir su esencia, resaltar sus aspectos más atractivos y crear ambientes inmersivos fotorealistas. Para eso, se combinan distintas disciplinas como el arte, la fotografía, el diseño de interiores, el urbanismo, la realidad virtual y la arquitectura.",
+  "por":"Cada projeto é único e persegue objetivos fundamentais: compreender e transmitir a sua essência, evidenciar os seus aspetos mais atrativos e criar ambientes imersivos fotorrealistas. Para isso, combinam-se diferentes disciplinas como arte, fotografia, design de interiores, planejamento urbano, realidade virtual e arquitetura."
   },
   "p3":{
-    "en":"We believe in the importance of finding new ways to improve, transmit and enjoy architecture. Technology, and in particular the field of Archviz, help us blur the boundaries between the physical world and the digital world.",
-    "es":"Creemos en la importancia de encontrar nuevas formas de mejorar, transmitir y disfrutar de la arquitectura. La tecnología, y en particular el campo del Archviz, nos ayudan a desdibujar los límites entre el mundo físico y el mundo digital.",
-    "br":"Acreditamos na importância de encontrar novas formas de melhorar, transmitir e desfrutar da arquitetura. A tecnologia, e em particular o campo do Archviz, ajuda-nos a esbater as fronteiras entre o mundo físico e o mundo digital."
+    "eng":"We believe in the importance of finding new ways to improve, transmit and enjoy architecture. Technology, and in particular the field of Archviz, help us blur the boundaries between the physical world and the digital world.",
+    "esp":"Creemos en la importancia de encontrar nuevas formas de mejorar, transmitir y disfrutar de la arquitectura. La tecnología, y en particular el campo del Archviz, nos ayudan a desdibujar los límites entre el mundo físico y el mundo digital.",
+    "por":"Acreditamos na importância de encontrar novas formas de melhorar, transmitir e desfrutar da arquitetura. A tecnologia, e em particular o campo do Archviz, ajuda-nos a esbater as fronteiras entre o mundo físico e o mundo digital."
   }
 }
